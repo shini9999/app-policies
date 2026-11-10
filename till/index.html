@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Till Privacy Policy</title>
+<style>
+  /* Layout: a plain legal page, one reading column, English first then French, both fully visible without scripting. */
+  :root {
+    --bg: #f6f7f9;
+    --surface: #ffffff;
+    --fg: #1d2530;
+    --muted: #5a6574;
+    --line: #dde1e7;
+    --accent: #1f5f8b;
+    --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --font-head: "IBM Plex Serif", Georgia, "Times New Roman", serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #14181e;
+      --surface: #1b2129;
+      --fg: #e6e9ee;
+      --muted: #9aa5b3;
+      --line: #2c343f;
+      --accent: #7fb8e0;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #14181e;
+    --surface: #1b2129;
+    --fg: #e6e9ee;
+    --muted: #9aa5b3;
+    --line: #2c343f;
+    --accent: #7fb8e0;
+    color-scheme: dark;
+  }
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@500;600&display=swap">
+<style>
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.65;
+    padding-block: 32px 64px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  main { max-width: 720px; margin: 0 auto; display: grid; gap: 32px; min-width: 0; }
+  .doc {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 32px clamp(20px, 5vw, 40px);
+    min-width: 0;
+  }
+  header { display: grid; gap: 6px; margin-bottom: 8px; }
+  .lang-links { display: flex; gap: 16px; font-size: 14px; margin-bottom: 8px; flex-wrap: wrap; }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  h1 { font-family: var(--font-head); font-weight: 600; font-size: clamp(26px, 5vw, 34px); line-height: 1.2; margin: 0; text-wrap: balance; }
+  h2 { font-family: var(--font-head); font-weight: 600; font-size: 20px; line-height: 1.3; margin: 32px 0 8px; text-wrap: balance; }
+  p, ul { margin: 0 0 12px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .meta { color: var(--muted); font-size: 14px; margin: 0; }
+  .summary {
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--accent);
+    border-radius: 4px;
+    padding: 12px 16px;
+    margin: 16px 0 0;
+  }
+  .summary p { margin: 0; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.92em; overflow-wrap: anywhere; }
+  .email { font-weight: 600; overflow-wrap: anywhere; user-select: all; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+
+</head>
+<body>
+<main>
+  <article class="doc" id="en" lang="en">
+    <header>
+      <nav class="lang-links" aria-label="Language"><a href="#fr">Lire en français</a></nav>
+      <h1>Till Privacy Policy</h1>
+      <p class="meta">Last updated: 10 November 2026 · App: Till (<code>com.ezzeddine.till</code>) for Android</p>
+    </header>
+
+    <div class="summary">
+      <p><strong>In short:</strong> Till does not collect, transmit or share any personal data. Everything you enter stays on your device.</p>
+    </div>
+
+    <h2>1. Who we are</h2>
+    <p>Till is a monthly budget ledger app for Android, published by its independent developer. For any question about this policy, write to <span class="email">till-support@proton.me</span>.</p>
+
+    <h2>2. Data you enter</h2>
+    <p>Till lets you record income and spending entries (amount, category, date, note), a savings goal, and your list of currencies. This information is stored only in the app's private storage on your device. It is never sent to the developer or to any server.</p>
+
+    <h2>3. Data we do not collect</h2>
+    <ul>
+      <li>No account, sign-in or registration of any kind.</li>
+      <li>No name, email address, phone number, location, contacts, photos, microphone or camera data.</li>
+      <li>No device identifiers or advertising identifiers.</li>
+      <li>No analytics, crash reporting, tracking or advertising, and no third-party SDKs that collect data.</li>
+    </ul>
+
+    <h2>4. Network access</h2>
+    <p>Till works entirely offline. The app does not make network requests to send or receive your data, and its fonts and all other resources are bundled inside the app.</p>
+
+    <h2>5. Sharing and disclosure</h2>
+    <p>We do not sell, rent, share or disclose any user data, because we do not have access to it. No third party receives data from Till.</p>
+
+    <h2>6. Backup export and import</h2>
+    <p>In Settings, you can export your data to a JSON file and import it back later. The export is started by you. Till writes a temporary copy of the file in the app's cache and opens Android's share sheet, so you choose where it goes (for example Google Drive, email or another app). Once you share the file, its handling is governed by the service you chose, not by Till. Importing a backup replaces the data currently on your device, after you confirm.</p>
+
+    <h2>7. Android device backup</h2>
+    <p>Depending on your device and Google account settings, Android may include app data in its own device backup. That backup is managed by Google and your device manufacturer and is outside the control of Till.</p>
+
+    <h2>8. Data retention and deletion</h2>
+    <p>Your data stays on your device until you delete it. You can remove entries inside the app, or delete all data by clearing the app's storage in Android Settings or by uninstalling Till. Because we hold no copy, there is nothing to delete on our side.</p>
+
+    <h2>9. Children</h2>
+    <p>Till is not directed at children under 13 and does not knowingly collect any information from anyone, including children.</p>
+
+    <h2>10. Your rights</h2>
+    <p>Because Till does not process your personal data on any server, there is no personal data held by us to access, correct or erase. If you are in the European Economic Area or elsewhere with similar laws, you may still contact us at the address above with any privacy question.</p>
+
+    <h2>11. Changes to this policy</h2>
+    <p>If this policy changes, the new version will be published at this address with an updated date. Material changes will also be described in the app's release notes.</p>
+
+    <h2>12. Contact</h2>
+    <p><span class="email">till-support@proton.me</span></p>
+  </article>
+
+  <article class="doc" id="fr" lang="fr">
+    <header>
+      <nav class="lang-links" aria-label="Langue"><a href="#en">Read in English</a></nav>
+      <h1>Politique de confidentialité de Till</h1>
+      <p class="meta">Dernière mise à jour : 10 novembre 2026 · Application : Till (<code>com.ezzeddine.till</code>) pour Android</p>
+    </header>
+
+    <div class="summary">
+      <p><strong>En bref :</strong> Till ne collecte, ne transmet et ne partage aucune donnée personnelle. Tout ce que vous saisissez reste sur votre appareil.</p>
+    </div>
+
+    <h2>1. Qui sommes-nous</h2>
+    <p>Till est une application Android de suivi de budget mensuel, publiée par son développeur indépendant. Pour toute question sur cette politique, écrivez à <span class="email">till-support@proton.me</span>.</p>
+
+    <h2>2. Données que vous saisissez</h2>
+    <p>Till vous permet d’enregistrer des revenus et des dépenses (montant, catégorie, date, note), un objectif d’épargne et votre liste de devises. Ces informations sont stockées uniquement dans l’espace privé de l’application sur votre appareil. Elles ne sont jamais envoyées au développeur ni à un serveur.</p>
+
+    <h2>3. Données que nous ne collectons pas</h2>
+    <ul>
+      <li>Aucun compte, aucune connexion, aucune inscription.</li>
+      <li>Ni nom, ni adresse e-mail, ni numéro de téléphone, ni position, ni contacts, ni photos, ni données de microphone ou de caméra.</li>
+      <li>Aucun identifiant d’appareil ni identifiant publicitaire.</li>
+      <li>Aucune statistique d’usage, aucun rapport de plantage, aucun suivi, aucune publicité, et aucun SDK tiers collectant des données.</li>
+    </ul>
+
+    <h2>4. Accès au réseau</h2>
+    <p>Till fonctionne entièrement hors ligne. L’application n’effectue aucune requête réseau pour envoyer ou recevoir vos données, et ses polices ainsi que toutes ses autres ressources sont intégrées à l’application.</p>
+
+    <h2>5. Partage et divulgation</h2>
+    <p>Nous ne vendons, ne louons, ne partageons ni ne divulguons aucune donnée d’utilisateur, car nous n’y avons pas accès. Aucun tiers ne reçoit de données de Till.</p>
+
+    <h2>6. Export et import de sauvegarde</h2>
+    <p>Dans les Réglages, vous pouvez exporter vos données dans un fichier JSON et les réimporter plus tard. L’export est lancé par vous. Till écrit une copie temporaire du fichier dans le cache de l’application et ouvre le menu de partage d’Android : vous choisissez la destination (par exemple Google Drive, e-mail ou une autre application). Une fois le fichier partagé, son traitement relève du service que vous avez choisi, et non de Till. L’import d’une sauvegarde remplace les données actuellement présentes sur votre appareil, après votre confirmation.</p>
+
+    <h2>7. Sauvegarde Android de l’appareil</h2>
+    <p>Selon votre appareil et les paramètres de votre compte Google, Android peut inclure les données des applications dans sa propre sauvegarde. Cette sauvegarde est gérée par Google et le fabricant de votre appareil, et échappe au contrôle de Till.</p>
+
+    <h2>8. Conservation et suppression des données</h2>
+    <p>Vos données restent sur votre appareil jusqu’à ce que vous les supprimiez. Vous pouvez supprimer des entrées dans l’application, ou effacer toutes les données en vidant le stockage de l’application dans les Paramètres d’Android ou en désinstallant Till. Comme nous n’en détenons aucune copie, il n’y a rien à supprimer de notre côté.</p>
+
+    <h2>9. Enfants</h2>
+    <p>Till ne s’adresse pas aux enfants de moins de 13 ans et ne collecte sciemment aucune information, auprès de quiconque, enfants compris.</p>
+
+    <h2>10. Vos droits</h2>
+    <p>Till ne traite vos données personnelles sur aucun serveur : nous ne détenons donc aucune donnée personnelle à consulter, rectifier ou effacer. Si vous résidez dans l’Espace économique européen ou dans un pays aux lois similaires, vous pouvez néanmoins nous écrire à l’adresse ci-dessus pour toute question relative à la vie privée.</p>
+
+    <h2>11. Modifications de cette politique</h2>
+    <p>Si cette politique change, la nouvelle version sera publiée à cette adresse avec une date mise à jour. Les changements importants seront aussi mentionnés dans les notes de version de l’application.</p>
+
+    <h2>12. Contact</h2>
+    <p><span class="email">till-support@proton.me</span></p>
+  </article>
+</main>
+</body>
+</html>
